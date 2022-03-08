@@ -70,6 +70,7 @@ nextBtn.addEventListener("click", validateForm);
 
 
 
+let chosenLanguage = []
 
 function validateTechInfo(){
     if(document.getElementById("skill-dropdown").value == "selectLanguage" || document.getElementById("experience").value == "" ){
@@ -90,9 +91,21 @@ function validateTechInfo(){
         h2.className = "render-h2"
         h2.innerHTML = `Years of Experience - ${yearValue}`
         div.appendChild(h2)
-
-
-        document.getElementById("technical-skill-info").appendChild(div);
-        
+        if(document.getElementsByClassName("render-p").length == 0){
+            document.getElementById("technical-skill-info").appendChild(div);
+        } else if (document.getElementsByClassName("render-p").length != 0){
+            let addedLanguages = document.getElementsByClassName("render-p")
+            let addedLanguagesText = []
+            for(var i = 0; i<addedLanguages.length; i++){
+                addedLanguagesText.push(addedLanguages[i].innerHTML)
+            }
+            console.log(addedLanguagesText)
+            if(addedLanguagesText != document.getElementById("skill-dropdown").value){
+                document.getElementById("technical-skill-info").appendChild(div);
+            } else {
+                window.alert("Language already added")
+            }
+            
+        }
     }
 }

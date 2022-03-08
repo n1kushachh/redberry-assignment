@@ -166,7 +166,7 @@ a.previous {
     background: url("../img/Previous.png");
 }
 
-div.rounded-1 {
+a.rounded-1 {
     margin: 5px;
     width: 20px;
     height: 20px;
@@ -174,7 +174,7 @@ div.rounded-1 {
     border-radius: 50%!important;
 }
 
-div.rounded-2 {
+a.rounded-2 {
     width: 20px;
     margin: 5px;
     height: 20px;
@@ -282,5 +282,9 @@ a.next {
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.secondpage {
+    opacity: 100%!important;
 }
 
