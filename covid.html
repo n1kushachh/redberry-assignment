@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Covid</title>
+  </head>
+  <body>
+    <div class="page">
+        <div class="main">
+            <div class="left">
+                <h1 class="main-h1">Covid Stuff</h1>
+                <form method="POST" class="form-personal-info">
+                    <div class="question 1">
+                        <h1 class="question-h1">How would you prefer to work</h1>
+                        <div class="radio-buttons">
+                            <input class="check-radio" type="radio" name="sairme" id="fromSairme">From Sairme Office<br>
+                            <input class="check-radio" type="radio" name="home" id="fromHome">From Home<br>
+                            <input class="check-radio" type="radio" name="hybrid" id="fromHybrid">Hybrid
+                        </div>
+                    </div>
+                    <div class="question 2">
+                        <h1 class="question-h1">Did you contact covid19? :(</h1>
+                        <div class="radio-buttons">
+                            <input class="check-radio" type="radio" name="yesCovid" id="yCovid">Yes<br>
+                            <input class="check-radio" type="radio" name="noCovid" id="nCovid">No<br>
+                        </div>
+                    </div>
+                    <div class="question 3">
+                        <h1 class="question-h1">When?</h1>
+                        <div class="radio-buttons">
+                            <input type="date" id="start" name="covid"
+                            value="2020-03-06"
+                            min="2019-01-01" max="2020-12-31">
+                        </div>
+                    </div>
+                    <div class="question 4">
+                        <h1 class="question-h1">Have you been vaccinated?</h1>
+                        <div class="radio-buttons">
+                            <input class="check-radio" type="radio" name="yesVaccine" id="yVaccine">Yes<br>
+                            <input class="check-radio" type="radio" name="noVaccine" id="nVaccine">No<br>
+                        </div>
+                    </div>
+                    <div class="question 3">
+                        <h1 class="question-h1">When did you get your last covid vaccine?</h1>
+                        <div class="radio-buttons">
+                            <input type="date" id="start" name="covid-vaccine-date"
+                            value="2020-03-06"
+                            min="2019-01-01" max="2020-12-31">
+                        </div>
+                    </div>
+
+
+                <div class="rounded-figures">
+                    <a href="landing.html" class="previous"></a>
+                    <a class="rounded-1"></a>
+                    <a href="technical-skillset.html" class="rounded-2"></a>
+                    <div class="rounded-3"></div>
+                    <div class="rounded-4"></div>
+                    <div class="rounded-5"></div>
+                    <a href="technical-skillset.html" class="next"></a>
+                  </div>
+
+                </form>
+            </div>
+
+            <div class="right">
+                <h1 class="main-h1">Redberry Covid Policies</h1>
+                <div class="right-paragraph">
+                    <p>As this infamous pandemic took over the world, we adjusted our working practices so that our employees can be as safe and comfortable as possible. We have a hybrid work environment, so you can either work from home or visit our lovely office on Sairme Street. If it was up to us, we would love you to see us in the office because we think face-to-face communications > Zoom meetings. Both on the fun and productivity scales. </p>
+                </div>
+            </div>
+        </div>
+            
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

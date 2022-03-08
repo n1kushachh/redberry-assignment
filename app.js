@@ -70,7 +70,6 @@ nextBtn.addEventListener("click", validateForm);
 
 
 
-let chosenLanguage = []
 
 function validateTechInfo(){
     if(document.getElementById("skill-dropdown").value == "selectLanguage" || document.getElementById("experience").value == "" ){

@@ -288,3 +288,23 @@ a.next {
     opacity: 100%!important;
 }
 
+.question-h1 {
+    color: black;
+    font-size: 12px!important;
+    font-weight: 200;
+}
+
+.check-radio {
+    margin-top: 10px;
+}
+
+
+.radio-buttons input #text{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.question {
+    text-align: center;
+}
+
