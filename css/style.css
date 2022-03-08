@@ -138,6 +138,13 @@ h1 {
     align-items: center;
 }
 
+.technical-skillset-info {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .form-input {
     margin: 25px;
     height: 40px;
@@ -152,7 +159,7 @@ h1 {
 }
 
 
-div.previous {
+a.previous {
     margin: 5px;
     width: 22px;
     height: 22px;
@@ -212,3 +219,68 @@ a.next {
     flex-direction: row;
     justify-content: center;
 }
+
+
+.form-input-skill {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    height: 40px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.skill-select {
+    margin-top: 12px;
+    margin-left: 15px;
+    color: gray;
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 200;
+    font-family: "Montserrat";
+}
+
+.dropdown-icon {
+    width: 12px;
+    height: 8px;
+    margin-top: 16px;
+    margin-left: 287px;
+}
+
+.addLanguageBtn {
+    margin-left: 165px;
+    border: none;
+    font-size: 12px;
+    color: white;
+    height: 40px;
+    width: 195px;
+    background: #FE3B1F;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.chosen-language {
+    font-size: 10px;
+    border: 1px solid black;
+    text-align: left;
+    margin-top: 25px;
+    height: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.render-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.render-h2 {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

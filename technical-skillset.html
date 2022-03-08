@@ -16,6 +16,42 @@
         <div class="main">
             <div class="left">
                 <h1 class="main-h1">Tell us about your skills</h1>
+                <form id="technical-skill-info" name="technical-form" class="technical-skillset-info" method="GET">
+                  <!--  name = camelCase, id = name[0] + "rac darcha"  --> 
+                  <select id="skill-dropdown" class="form-input-skill dropdown" name="skills" id="skillsSelect" placeholder="Skills">
+                      <option value="selectLanguage">Select language</option>
+
+
+                    <!-- <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    <h5 class="skill-select">Skills</h5>
+                    <a onclick="dropdown()"><img class="dropdown-icon" src="img/dropdown.png" alt="dropdown"></a> -->
+
+                    <div class="rounded-figures">
+                      <a href="landing.html" class="previous"></a>
+                      <div class="rounded-1"></div>
+                      <div class="rounded-2"></div>
+                      <div class="rounded-3"></div>
+                      <div class="rounded-4"></div>
+                      <div class="rounded-5"></div>
+                      <a href="technical-skillset.html" class="next"></a>
+                    </div>
+
+
+                  </div>
+
+
+
+                  <input id="experience" class="form-input" type="number" name="skillExperience" id="sExperience" placeholder="Experience Duration in Years" required>
+                  <button type="button" onclick="validateTechInfo()" id="addLanguageButton" class="addLanguageBtn">Add Programming Language</button>
+
+                  <!--After Selecting check this !!!!!-->
+
+                  <!-- <input class="form-input" type="number" name="phoneNumber" id="pNumber" placeholder="+995 5__ __ __ __"> -->
+                </form>
             </div>
             <div class="right">
                 <h1 class="main-h1">A bit about our battles</h1>
